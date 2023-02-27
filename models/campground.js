@@ -27,7 +27,7 @@ const campGroundSchema = new Schema({
         },
         coordinates: {
             type:[Number],
-            require: true
+            required: true
         }
     },
     price: Number,
